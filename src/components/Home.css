@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+ 
+    background-image: url("./images/img1.jpg");
+    width: 100vw;
+    /* Set width to 100% of viewport width */
+    height: 100vh;
+    /* Set height to 100% of viewport height */
+    background-size: cover;
+    /* Scale the image to cover the entire container */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* opacity: 0.95;
+    position: relative; */
+}
+h1{
+    background-color:#71789d;
+    height:70px ;
+    font-size: 52px;
+    font-family: "Concert One", sans-serif;
+    padding-left: 5px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color:white;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+.column {
+    display: flex;
+    padding: 5px;
+    /* padding: 0.5%;
+    margin: 0.5%; */
+}
+.card-container{
+    margin-left:15%;
+    margin-right: 15%;
+}
+.card-image{
+  max-width: 120%;
+  max-height: 80%;
+  object-fit: contain;
+}
+h3{
+  color:rgb(16, 7, 7);
+}
+.name{
+  padding: 5%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#71789d;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* Navbar color */
+}
+
+.nav-heading{
+  color: white;
+}
